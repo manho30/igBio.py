@@ -4,8 +4,8 @@ import datetime
 from dateutil.relativedelta import relativedelta
 
 # instagram comfig
-username = "manho30.state"
-password = "12345678state"
+username = "USERNAME"
+password = "PASS"
 
 
 # get current bio from instagram
