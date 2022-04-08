@@ -4,8 +4,8 @@ import datetime
 from dateutil.relativedelta import relativedelta
 
 # instagram comfig
-username = "manho30.state"
-password = "12345678state"
+username = "manho"
+password = "12345678"
 
 
 # get current bio from instagram
@@ -90,4 +90,4 @@ ig.account_edit(biography=f"{BIO.format(day1=day1, day7=day7, status=status , no
 
 
 # for debugging
-print(editBio(testBio, feeling))
+print(editBio(getBio(), feeling))
